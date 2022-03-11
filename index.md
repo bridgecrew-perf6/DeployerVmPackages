@@ -4,7 +4,7 @@
 - Create a container "sapbits" in the storage account.
 - Create a new Ubuntu VM in Azure.
 - Log into the Ubuntu VM.
-- Install az cli Steps mentioned at
+- Install az cli. Steps mentioned at
   https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
 
 - Login into azure using command
@@ -14,7 +14,7 @@ az login
 
 - Download shell script to download deployer VM packages using below command:
 ```
-wget "<https://raw.githubusercontent.com/ajaygit158/DeployerVmPackages/master/DownloadDeployerVMPackages.sh>"
+wget "https://raw.githubusercontent.com/ajaygit158/DeployerVmPackages/master/DownloadDeployerVMPackages.sh"
 ```
 
 - Change the permissions of the above script file using
