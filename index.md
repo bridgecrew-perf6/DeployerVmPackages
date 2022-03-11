@@ -24,7 +24,7 @@ chmod +x DownloadDeployerVMPackages.sh
 
 - Run the script
 ```
-./DownloadDeployerVmPackages.sh
+./DownloadDeployerVMPackages.sh
 ```
 - When asked for do you have a storage account, enter 'y'.
 - When asked for SAP storage account base path, enter the container path (eg: https://sapbitsstorageaccount.blob.core.windows.net/sapbits). You can get this from portal by going to the storage account created in step 1 --> container (sapbits) --> Properties --> URL.
