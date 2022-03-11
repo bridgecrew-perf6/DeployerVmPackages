@@ -18,7 +18,10 @@ wget "https://raw.githubusercontent.com/ajaygit158/DeployerVmPackages/master/Dow
 ```
 
 - Change the permissions of the above script file using
-> chmod +x DownloadDeployerVmPackages.sh
+```
+chmod +x DownloadDeployerVMPackages.sh
+```
+
 - Run the script
 ```
 ./DownloadDeployerVmPackages.sh
