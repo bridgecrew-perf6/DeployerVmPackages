@@ -2,8 +2,8 @@
 
 - Create a new storage account where the SAP bits will reside.
 - Create a container "sapbits" in the storage account.
-- Create a new Ubuntu VM in Azure.
-- Log into the Ubuntu VM.
+- Create a new Ubuntu (20.04) VM in Azure.
+- Log into the VM create in above step.
 - Install az cli. Steps mentioned at
   https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
 
