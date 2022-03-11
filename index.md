@@ -53,7 +53,7 @@ git clone https://github.com/Azure/sap-automation.git
 
 - Run the playbook_bom_downloader ansible script using below command
 ```
-ansible-playbook ./sap-automation/deploy/ansible/playbook_bom_downloader.yaml -e "bom_base_name=S41909SPS03_v0010ms" -e "kv_name=abcd" -e "deployer_kv_name=abcd" -e "s_user=\<username\>" -e "s_password=\<password\>" -e "sapbits_access_key=\<storageAccountAccessKey\>" -e "sapbits_location_base_path=\<ContainerBasePath\>" -e "sapbits_sas_token=\<containerSasToken\>"
+ansible-playbook ./sap-automation/deploy/ansible/playbook_bom_downloader.yaml -e "bom_base_name=S41909SPS03_v0010ms" -e "kv_name=abcd" -e "deployer_kv_name=abcd" -e "s_user=<username>" -e "s_password=<password>" -e "sapbits_access_key=<storageAccountAccessKey>" -e "sapbits_location_base_path=<ContainerBasePath>" -e "sapbits_sas_token=<containerSasToken>"
 ```
 
 ##### Replace the values in angular brackets as per below:
