@@ -45,7 +45,7 @@ sudo pip3 install ansible==2.9.27
 
 - Git clone the below repository
 ```
-    git clone https://github.com/Azure/sap-automation.git
+git clone https://github.com/Azure/sap-automation.git
 ```
 
 - Run the playbook_bom_downloader ansible script using below command
